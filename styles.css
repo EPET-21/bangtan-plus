@@ -1,0 +1,51 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Roboto', serif;
+}
+
+#header {
+    color: red;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.central{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    color: white;
+    margin-bottom: 1em;
+}
+
+.personajes{
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.row button{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 1.5em;
+    border-radius: 50px ;
+}
+
+.row button img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
