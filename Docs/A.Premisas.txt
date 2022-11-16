@@ -1,0 +1,70 @@
+_______________________ --- Premisas del desarrollo --- _______________________
+
+    Debmos entender que la web está conformada básicamente por tres elementos 
+        1. HTML  -  representa la estructura de la web
+        2. CSS   -  es el maquillaje, dando estilos y efectos 
+        3. JS    -  Vanilla JavaScript provee la interacción 
+
+    
+    _________________________________________________________________________
+
+    En resumen HTML es un lenguaje de enmarcado y genera la estructura mediante 
+    sus tag o etiquetas, mediante las cuales envolveremos el contenido. 
+    
+    Ejemplo básico de las etiquetas: 
+        <TAG> content </TAG>
+
+    Maneras de acceder a los elementos para darle estilos: 
+
+        1. Mediante class 
+        2. Mediante id
+
+
+                    TABLA DE REFERENCIA
+        ----------------------------------------------------------------------
+           PROP      |           HTML                   |       CSS
+        ----------------------------------------------------------------------
+            class    |  <TAG class="my-custom-class">   |  .my-custom-class {
+                     |         content                  |     color: red;
+                     |  </TAG>                          |  }
+        ----------------------------------------------------------------------
+             id      |  <TAG id="my-id">                |  #my-id {
+                     |         content                  |     color: red;
+                     |  </TAG>                          |  }
+        ----------------------------------------------------------------------
+    
+    _________________________________________________________________________
+
+    Por último JavaScript nos provee una manera de darle interacción a nuestra 
+    web mediante eventos del DOM(Document Object Model).
+    Pro ejemplo adosando una alerta a un boton: 
+
+        <button onclick="alert('This is your alert!')">
+             Click Me
+        </button>
+
+    También podemos adosar una function a un button y generar una funcion que 
+    responda a dicho evento:
+
+        <button onclick="myFunction()">
+            Click Me
+        </button>
+
+        <script>
+            function myFunction(){
+                alert('This a function!')
+            };
+        </script>
+
+    _________________________________________________________________________
+
+     Para una carga de mayor rendimiento se utiliza la carga de imagenes por 
+     CDN(Content Delivery Network) red de entrega de contenido. Esta estrategia
+     permite una carga mas rápida a la hora de insertar contenido como en linea.
+          
+     Se utilizaron etiquetas <a> para enlazar las páginas externas y para el 
+     redireccionamiento a recursos internos se utilizaron button con una funcion 
+     de JavaScript que utiliza el objeto location propio de la API Web para 
+     redireccionar el navegador. 
+
+     Para la fuente de textos se utilizo Roboto de Google API Fonts

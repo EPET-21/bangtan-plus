@@ -1,8 +1,11 @@
 html, body {
     padding: 0;
     margin: 0;
-    background-color: black;
-    font-family: 'Roboto', serif;
+   background-image: url("https://i.pinimg.com/736x/85/e8/4d/85e84d6f44824c1ed1efa85f165065ac.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: 'Roboto', serif;
+    text-transform: uppercase;
 }
 
 #header {
@@ -17,7 +20,7 @@ html, body {
 }
 
 .central{
-    background-color:black;
+    background-color:transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,11 +39,14 @@ html, body {
 }
 
 .row button{
-    background-color: black;
+    background-color: transparent;
+    border: 0px;
     height: 100px;
     width: 100px;
     margin: 1.5em;
     border-radius: 50px ;
+    box-shadow: 5px 7px 10px 0px rgba(255, 255, 255, 0.5);
+    cursor: pointer;
 }
 
 .row button img{
@@ -48,4 +54,44 @@ html, body {
     width: 100px;
     border-radius: 50%;
     cursor: pointer;
+    
+}
+
+
+
+button:hover{
+  height: 110px .5s;
+  rotate: -5deg;
+  box-shadow: 5px 10px 15px 0px rgba(255, 255, 255, 1);
+}
+
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    color: white;
+    text-transform: capitalize;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#title{
+    margin-left: 1em;
+    width: 7rem;
+}
+
+#authors{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;    
+    width: 10rem;
+}
+
+#authors p{
+    margin-right: 1em;
 }
