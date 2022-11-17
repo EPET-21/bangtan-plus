@@ -1,11 +1,11 @@
 html, body {
     padding: 0;
     margin: 0;
-   background-image: url("https://i.pinimg.com/736x/85/e8/4d/85e84d6f44824c1ed1efa85f165065ac.jpg");
+   background-image: url("https://www.sbs.com.au/popasia/sites/sbs.com.au.popasia/files/btsmood.png");
    background-repeat: no-repeat;
    background-size: cover;
    font-family: 'Roboto', serif;
-    text-transform: uppercase;
+   text-transform: uppercase;
 }
 
 #header {
@@ -92,6 +92,3 @@ footer {
     width: 10rem;
 }
 
-#authors p{
-    margin-right: 1em;
-}

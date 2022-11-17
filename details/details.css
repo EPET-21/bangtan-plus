@@ -4,21 +4,23 @@ html, body {
     background-color:black;
     font-family: 'Roboto', serif;
 }
+
 .header{
     background-color: rgba(0,0,0,0.4);
     height: 15vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
 
 button{
  cursor:pointer;
 }
 
-span a {
-    margin-inline: 3em;
+section a {
+    margin-left: 1em;
     text-decoration: none;
     color: white;
     text-transform: capitalize;
@@ -63,10 +65,11 @@ a {
 
 
 .slider {
-	width: 25vw;
+	width: 30vw;
 	margin: auto;
 	overflow: hidden;
   text-align: center;
+  margin-bottom: 1em;
 }
 
 .title {
